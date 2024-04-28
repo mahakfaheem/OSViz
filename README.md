@@ -38,6 +38,13 @@ python main.py
 
 This will launch the application, displaying the main menu with options to visualize mutex and binary semaphore concepts.
 
+Main Menu
 ![Main Menu](screenshots/mainmenu.png)
+
+
+Mutex Demo
 ![Mutex](screenshots/mutex.png)
+
+
+Binary Semaphore Demo
 ![Binary Semaphore](screenshots/binarysemaphore.png)
