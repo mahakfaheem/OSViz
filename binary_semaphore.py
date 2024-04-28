@@ -19,7 +19,7 @@ class SemaphoreDemo:
         self.main_app = main_app
 
         self.width = 800
-        self.height = 500  # Increased height to accommodate more explanation lines and space
+        self.height = 500 
         self.screen = pygame.display.set_mode((self.width, self.height))
         pygame.display.set_caption("Semaphore Demo")
 
@@ -36,7 +36,7 @@ class SemaphoreDemo:
         self.current_event = ""  # Store the current event message
 
         self.font = pygame.font.SysFont(None, 30)
-        self.small_font = pygame.font.SysFont(None, 24)  # Small font for explanation text
+        self.small_font = pygame.font.SysFont(None, 24)
 
         self.clock = pygame.time.Clock()
 
@@ -116,7 +116,7 @@ class SemaphoreDemo:
         y_offset = 250
         for line in explanation:
             self.draw_text(line, 10, y_offset, color=BLACK, font=self.small_font)
-            y_offset += 20  # Increase y offset for more space between lines
+            y_offset += 20 
 
         pygame.display.flip()
 
