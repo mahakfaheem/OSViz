@@ -34,7 +34,7 @@ class VisualizationApp:
         counter_semaphore_demo.run()
 
     def run_monitor_demo(self): 
-        monitor_demo = MonitorDemo()  # Remove self argument
+        monitor_demo = MonitorDemo(self)
         monitor_demo.run()
 
     def run(self):
